@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="blog-container">
+      <div id="blog-input-wrapper">
+        <div id="input-container">
+          <div id="name-input-container">
+            <input
+            class="input-item"
+            id="name-text-input"
+            name="submit"
+            type="text"
+            required
+            placeholder="Enter name"
+            />
+          </div>
+          <div id="title-input-container">
+            <input
+            class="input-item"
+            id="title-text-input"
+            name="submit"
+            type="text"
+            required
+            placeholder="Enter title"
+            />
+        </div>
+        <div id="blog-post-input-wrapper">
+          <textarea
+            class="input-item"
+            id="blog-post-input"
+            name="submit"
+            rows="5"
+            cols="33"
+             required
+            placeholder="Write post..."
+            ></textarea>
+            <div>
+              <input value="Save post" id="submit-button" type="submit" onclick="printBlogPost()">
+            </input>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div id="output-container"></div>
+    </div>
+    <script src="/test.js"></script>
+  </body>
+  </html>
